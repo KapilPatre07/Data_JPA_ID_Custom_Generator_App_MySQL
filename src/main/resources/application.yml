@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 09_Data_Jpa_Custom_Generator_App-2
+  datasource:
+    password: kapil@123
+    url: jdbc:mysql://localhost:3306/ashokitdb
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
